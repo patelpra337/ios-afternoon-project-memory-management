@@ -14,10 +14,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CRUContactController : NSObject
 
-@property (nonatomic, readonly, copy) NSArray<CRUContact *> *contact;
+@property (nonatomic, readonly, copy) NSArray<CRUContact *> *contacts;
 @property (nonatomic, readonly) NSInteger contactCount;
 
-- (CRUContact *)objectInContactAtIndex:(NSInteger)index;
+- (CRUContact *)contactAtIndex:(NSInteger)index;
 - (void)deleteContactAtIndex:(NSInteger)index;
 - (void)createContactWithContact:(CRUContact *)contact;
 - (void)createContactWithName:(NSString *)name email:(NSString *)email phoneNumber:(NSString *)phoneNumber;
