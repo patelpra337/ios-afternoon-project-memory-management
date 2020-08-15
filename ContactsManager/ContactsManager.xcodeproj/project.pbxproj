@@ -16,6 +16,7 @@
 		ABFFEEA924E4B6140032C444 /* CRUContact.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFFEEA824E4B6140032C444 /* CRUContact.m */; };
 		ABFFEEAC24E4B62E0032C444 /* CRUContactController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFFEEAB24E4B62E0032C444 /* CRUContactController.m */; };
 		ABFFEEDA24E628490032C444 /* CRUContactTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFFEED924E628490032C444 /* CRUContactTableViewController.m */; };
+		ABFFEEDD24E83A2F0032C444 /* CRUContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFFEEDC24E83A2F0032C444 /* CRUContactDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		ABFFEEAB24E4B62E0032C444 /* CRUContactController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRUContactController.m; sourceTree = "<group>"; };
 		ABFFEED824E628490032C444 /* CRUContactTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRUContactTableViewController.h; sourceTree = "<group>"; };
 		ABFFEED924E628490032C444 /* CRUContactTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRUContactTableViewController.m; sourceTree = "<group>"; };
+		ABFFEEDB24E83A2F0032C444 /* CRUContactDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRUContactDetailViewController.h; sourceTree = "<group>"; };
+		ABFFEEDC24E83A2F0032C444 /* CRUContactDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRUContactDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 			children = (
 				ABFFEED824E628490032C444 /* CRUContactTableViewController.h */,
 				ABFFEED924E628490032C444 /* CRUContactTableViewController.m */,
+				ABFFEEDB24E83A2F0032C444 /* CRUContactDetailViewController.h */,
+				ABFFEEDC24E83A2F0032C444 /* CRUContactDetailViewController.m */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -200,6 +205,7 @@
 				ABFFEE8B24E4B5350032C444 /* AppDelegate.m in Sources */,
 				ABFFEEA924E4B6140032C444 /* CRUContact.m in Sources */,
 				ABFFEE9C24E4B5360032C444 /* main.m in Sources */,
+				ABFFEEDD24E83A2F0032C444 /* CRUContactDetailViewController.m in Sources */,
 				ABFFEEAC24E4B62E0032C444 /* CRUContactController.m in Sources */,
 				ABFFEE8E24E4B5350032C444 /* SceneDelegate.m in Sources */,
 				ABFFEEDA24E628490032C444 /* CRUContactTableViewController.m in Sources */,
